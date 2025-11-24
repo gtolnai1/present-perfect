@@ -2,10 +2,10 @@
 
 const sentences = [
   // Affirmative (20)
-  { type: "affirmative", correct: ["I", "have", "eaten", "breakfast", "."], distractors: ["ate", "eat", "?"] },
-  { type: "affirmative", correct: ["She", "has", "visited", "London", "."], distractors: ["visit", "jump", "?"] },
-  { type: "affirmative", correct: ["They", "have", "finished", "their", "homework", "."], distractors: ["finish", "sing", "?"] },
-  { type: "affirmative", correct: ["We", "have", "seen", "that", "movie", "."], distractors: ["see", "car", "?"] },
+  { type: "affirmative", correct: ["I", "have", "eaten", "breakfast", "."], distractors: ["ate", "eat", "?","has"] },
+  { type: "affirmative", correct: ["She", "has", "visited", "London", "."], distractors: ["visit", "have", "?"] },
+  { type: "affirmative", correct: ["They", "have", "finished", "their", "homework", "."], distractors: ["finish", "has", "?"] },
+  { type: "affirmative", correct: ["We", "have", "seen", "that", "movie", "."], distractors: ["see", "has", "?"] },
   { type: "affirmative", correct: ["He", "has", "lost", "his", "keys", "."], distractors: ["loose", "dance", "?"] },
   { type: "affirmative", correct: ["You", "have", "called", "me", "."], distractors: ["call", "walk", "?"] },
   { type: "affirmative", correct: ["My", "mom", "has", "baked", "a", "cake", "."], distractors: ["bake", "?"] },
@@ -202,4 +202,5 @@ restartBtn.addEventListener("click", restartSession);
 // Initialize session
 pickSessionSentences();
 renderSentence();
+
 
