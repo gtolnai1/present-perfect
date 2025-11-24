@@ -54,7 +54,7 @@ const sentences = [
   { type: "question", correct: ["Have", "you", "called", "me", "?"], distractors: ["tree", "walk", ".","has"] },
   { type: "question", correct: ["Has", "your", "mom", "baked", "a", "cake", "?"], distractors: ["have", ".","have"] },
   { type: "question", correct: ["Has", "the", "teacher", "explained", "the", "lesson", "?"], distractors: ["have", ".", "explain"] },
-  { type: "question", correct: ["Have", "students", "arrived", "early", "?"], distractors: ["arrive", "has", "."] },
+  { type: "question", correct: ["Have","the","students", "arrived", "early", "?"], distractors: ["arrive", "has", "."] },
   { type: "question", correct: ["Have", "you", "met", "my", "friend", "?"], distractors: ["has", "meet", "."] },
   { type: "question", correct: ["Has", "he", "opened", "the", "window", "?"], distractors: ["have", "open", "."] },
   { type: "question", correct: ["Have", "they", "bought", "new", "shoes", "?"], distractors: ["has", "buy", "."] },
@@ -202,6 +202,7 @@ restartBtn.addEventListener("click", restartSession);
 // Initialize session
 pickSessionSentences();
 renderSentence();
+
 
 
 
